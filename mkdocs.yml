@@ -6,7 +6,22 @@ repo_url: https://github.com/xczdev/open-source-with-fedora
 
 theme:
   name: material
-  language: en
+  language: zh
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.tracking
@@ -16,6 +31,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
@@ -38,14 +56,7 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - Home: index.md
-  - English:
-    - Home: en/index.md
-    - Guides:
-      - Getting Started: en/guides/getting-started.md
-      - Deploy on Cloudflare Pages: en/guides/cloudflare-pages.md
-  - 中文:
-    - 首页: cn/index.md
-    - 指南:
+  - 首页: cn/index.md
+  - 指南:
       - 快速开始: cn/guides/getting-started.md
       - 部署到 Cloudflare Pages: cn/guides/cloudflare-pages.md
