@@ -1,0 +1,51 @@
+site_name: Open Source with Fedora
+site_description: Learning notes and practical guides for Fedora, DevOps, and open source.
+site_url: https://open-source-with-fedora.nextorange.top
+repo_name: xczdev/open-source-with-fedora
+repo_url: https://github.com/xczdev/open-source-with-fedora
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - English:
+    - Home: en/index.md
+    - Guides:
+      - Getting Started: en/guides/getting-started.md
+      - Deploy on Cloudflare Pages: en/guides/cloudflare-pages.md
+  - 中文:
+    - 首页: cn/index.md
+    - 指南:
+      - 快速开始: cn/guides/getting-started.md
+      - 部署到 Cloudflare Pages: cn/guides/cloudflare-pages.md
