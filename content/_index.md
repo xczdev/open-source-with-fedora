@@ -2,17 +2,26 @@
 title: Open Source with Fedora
 ---
 
-欢迎来到 Open Source with Fedora 文档站点。
+# Intro
+Hi, welcome to xczdev's Open Source with Fedora!
 
-本站使用 Hugo 和 hugo-book 主题构建，部署在 Cloudflare Pages。
+I'm Xincheng Zhang, a QA and DevOps engineer since 2018. I live in Paris, France.
 
-## 你可以在这里看到
+In February 2026, I wanted to buy a laptop dedicated to Linux. I chose my laptop quickly, and I also chose my Linux distribution: Fedora. That is where my journey into the Linux and open source world began.
 
-- Fedora 学习笔记
-- 实战型 DevOps 示例
-- 开源贡献实践指南
+This site documents my *Open Source with Fedora* journey. I want to record this path to keep a memory of my growth and, hopefully, help people who come after me.
 
-## 快速导航
+# What you can find on this site
 
-- [快速开始]({{< relref "docs/getting-started" >}}) - 本地运行文档
-- [部署到 Cloudflare Pages]({{< relref "docs/cloudflare-pages" >}}) - 部署指南
+- Fedora Linux usage tips
+- How to contribute to Fedora
+- Other Linux-related tips
+
+# How to use the website
+
+The menu on the left lists the articles. It follows the order of my learning journey.
+
+The menu on the right shows the table of contents for each page.
+
+# About the site
+This site is built with Hugo and the hugo-book theme, and deployed on Cloudflare Pages.
