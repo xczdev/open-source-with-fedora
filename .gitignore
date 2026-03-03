@@ -1,7 +1,6 @@
-.venv/
-site/
-__pycache__/
-*.pyc
+.hugo_build.lock
+public/
+resources/
 
 # Prevent accidental secret commits
 .env

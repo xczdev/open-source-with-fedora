@@ -1,34 +1,71 @@
-# open-source-with-fedora
+# Open Source with Fedora
 
-Documentation website scaffolded with MkDocs and Material for MkDocs.
+Documentation website built with Hugo and hugo-book theme, deployed on Cloudflare Pages.
 
-Supports two languages:
+## Features
 
-- English docs: `docs/en/`
-- Chinese docs: `docs/cn/`
+- 📚 GitBook-like layout with hugo-book theme
+- 🌙 Built-in dark/light mode toggle
+- ⚡ Ultra-fast builds (~2-5 seconds)
+- 🔍 Full-text search support
+- 📝 Pure Markdown content
 
-## Deployment target
+## Quick Start
 
-Primary deployment target is Cloudflare Pages.
+### Install Hugo
 
-## Cloudflare Pages
+**Fedora/RHEL:**
+```bash
+sudo dnf install hugo
+```
+
+**macOS:**
+```bash
+brew install hugo
+```
+
+### Local Development
+
+```bash
+hugo server
+```
+
+Open `http://127.0.0.1:1313` in your browser.
+
+### Build Static Site
+
+```bash
+hugo --minify
+```
+
+Output is generated in the `public/` directory.
+
+## Deployment on Cloudflare Pages
 
 Use these settings when connecting this repository in Cloudflare Pages:
 
-- Framework preset: `None`
-- Build command: `pip install -r requirements.txt && mkdocs build`
-- Build output directory: `site`
-- Environment variable: `PYTHON_VERSION=3.12`
+- **Framework preset**: `None`
+- **Build command**: `hugo --minify`
+- **Build output directory**: `public`
 
-Python runtime is pinned in `.python-version` to keep local and CI builds consistent.
+That's it! Pages will rebuild on every push.
 
-## Public repository safety
+## Public Repository Safety
 
-- Never commit API tokens, passwords, or private keys.
-- Cloudflare tokens should be set only in Cloudflare dashboard environment variables.
-- Secret-like files are ignored by `.gitignore` (for example `.env*`, `*.pem`, `*.key`).
+- Never commit API tokens, passwords, or private keys
+- Cloudflare tokens should be set only in Cloudflare dashboard environment variables
+- Secret-like files are ignored by `.gitignore` (for example `.env*`, `*.pem`, `*.key`)
 
-More details:
+More details: [`content/docs/cloudflare-pages/_index.md`](content/docs/cloudflare-pages/_index.md).
 
-- English: `docs/en/guides/cloudflare-pages.md`
-- 中文: `docs/cn/guides/cloudflare-pages.md`
+## Hugo Theme
+
+This site uses the [hugo-book](https://github.com/alex-shpak/hugo-book) theme by Alex Shpak.
+
+## Creating New Pages
+
+```bash
+hugo new content/docs/my-guide/_index.md
+```
+
+Edit the generated Markdown file and it will automatically appear in the site navigation.

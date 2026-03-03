@@ -1,0 +1,23 @@
+baseURL = "https://open-source-with-fedora.nextorange.top/"
+title = "Open Source with Fedora"
+theme = "hugo-book"
+languageCode = "zh-CN"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[params]
+  BookTheme = "auto"
+  BookToC = true
+  BookMenuBundle = false
+  BookSearch = true
+
+[menu]
+  [[menu.before]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.after]]
+    name = "GitHub"
+    url = "https://github.com/xczdev/open-source-with-fedora"
+    weight = 1
