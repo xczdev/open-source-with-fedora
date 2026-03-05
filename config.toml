@@ -1,5 +1,5 @@
-baseURL = "https://open-source-with-fedora.nextorange.top/"
-title = "Open Source with Fedora"
+baseURL = "https://the-road-to-open-source.nextorange.top/"
+title = "The Road to Open Source"
 theme = "hugo-book"
 languageCode = "zh-CN"
 
@@ -14,10 +14,10 @@ languageCode = "zh-CN"
 
 [menu]
   [[menu.before]]
-    name = "首页"
+    name = "Intro"
     url = "/"
     weight = 1
   [[menu.after]]
-    name = "GitHub"
-    url = "https://github.com/xczdev/open-source-with-fedora"
+    name = "About"
+    url = "/about/"
     weight = 1
