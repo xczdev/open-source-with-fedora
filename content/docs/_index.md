@@ -1,6 +1,10 @@
 ---
-title: 指南
+title: Why Linux
 weight: 1
 ---
 
-文档和部署指南。
+Well, as I am a DevOps engenieer, it's a easy reason.
+
+## Why Fedora ?
+- Linux chosse Fedora
+- Fedora is the upstream of Red Hat
