@@ -18,6 +18,6 @@ languageCode = "zh-CN"
     url = "/"
     weight = 1
   [[menu.after]]
-    name = "GitHub"
-    url = "https://github.com/xczdev/open-source-with-fedora"
+    name = "About"
+    url = "/about/"
     weight = 1
