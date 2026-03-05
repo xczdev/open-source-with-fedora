@@ -1,6 +1,6 @@
 ---
-title: 快速开始
-weight: 1
+title: about the site
+weight: 99
 ---
 
 本指南帮助你在本地运行文档站点。

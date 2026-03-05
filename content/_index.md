@@ -1,15 +1,15 @@
 ---
-title: Open Source with Fedora
+title: The Road to Open Source
 ---
 
 ## Intro
-Hi, welcome to xczdev's Open Source with Fedora!
+Hi, welcome to xczdev's Road to Open Source!
 
 I'm Xincheng Zhang, a QA and DevOps engineer since 2018. I live in Paris, France.
 
 In February 2026, I wanted to buy a laptop dedicated to Linux. I chose my laptop quickly, and I also chose my Linux distribution: Fedora. That is where my journey into the Linux and open source world began.
 
-This site documents my *Open Source with Fedora* journey. I want to record this path to keep a memory of my growth and, hopefully, help people who come after me.
+This site documents my *The Road to Open Source* journey. I want to record this path to keep a memory of my growth and, hopefully, help people who come after me.
 
 ## What you can find on this site
 
